@@ -10,16 +10,20 @@
     --grid: #efe9da;
 }
 
-* {
+*,
+*::before,
+* ::after {
     box-sizing: border-box;
 }
 
 html {
     scroll-behavior: smooth;
+    width: 100%;
 }
 
 body {
     margin: 0;
+    width: 100%;
     font-family: 'DM Sans', sans-serif;
     line-height: 1.6;
     color: var(--tc);
@@ -30,6 +34,7 @@ body {
         linear-gradient(90deg, var(--grid) 1px,
         transparent 1px);
     background-size: 32px 32px;
+    overflow-x: hidden;
 }
 
 h1, h2, h3 {

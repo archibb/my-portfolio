@@ -7,7 +7,7 @@ function Navbar() {
         <a href="/" className="nav-logo">IBB</a>
         <ul className="nav-links">
           <li><a href="#about">About</a></li>
-          <li><a href="#services">Skills</a></li>
+          <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact" className="nav-contact">Contact</a></li>
         </ul>
