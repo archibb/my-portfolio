@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=DM+Sans:wght@400;500;700&family=Fraunces:wght@400;600&display=swap');
+
+:root {
+    --bgc: #fffdf8;
+    --tc: #2d3047;
+    --pink: #f9c6d4;
+    --blue: #c5dff8;
+    --yellow: #fff0b3;
+    --green: #cfe8d5;
+    --grid: #efe9da;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 1.6;
+    color: var(--tc);
+    background-color: var(--bgc);
+    background-image: 
+        linear-gradient(var(--grid) 1px,
+        transparent 1px),
+        linear-gradient(90deg, var(--grid) 1px,
+        transparent 1px);
+    background-size: 32px 32px;
+}
+
+h1, h2, h3 {
+    font-family: 'Fraunces', serif;
+}
+
+a {
+    color: var(--tc);
+    text-decoration: none;      /* removes underline from links */
+}
