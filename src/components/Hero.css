@@ -1,29 +1,30 @@
 .hero {
+    position: relative;
     max-width: 1120px;
     margin: 0px auto;
     display: flex;
     flex-wrap: wrap;
-    box-sizing: border-box;
     align-items: center;
     justify-content: space-between;
-    padding: 72px 32px 96px;
-    gap: 56px;
+    padding: 72px 32px 20px;
+    column-gap: 56px;
+    row-gap: 20px;
 }
 
-.intro {
+.hero-text-cont {
+    flex-grow: 1px;
+    flex-shrink: 1px;
+    flex-basis: 400px;
+    position: relative;
+}
+
+.my-name-is {
     display: inline-block;
     margin: 0px 0px 4px 9px;
     font-family: 'Caveat', cursive;
     font-size: 30px;
     font-weight: 600;
     transform: rotate(-3deg);
-}
-
-.hero-text {
-    flex-grow: 1px;
-    flex-shrink: 1px;
-    flex-basis: 460px;
-    position: relative;
 }
 
 .hero-name-cont {
@@ -89,10 +90,9 @@ mark {
     font-weight: 700;
 }
 
-.hero-image {
+.hero-image-cont {
     flex-basis: 400px;
     position: relative;
     height: 340px;
     width: 350px;
-
 }
