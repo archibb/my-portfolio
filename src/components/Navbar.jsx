@@ -12,7 +12,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="nav-inner">
 
-        <a href="/" className="nav-logo">IBB</a>
+        <a href="#home" className="nav-logo" onClick={closeMenu}> IBB </a>
 
         <button
           type="button"
@@ -27,7 +27,7 @@ function Navbar() {
           <span></span>
         </button>
 
-        <ul className="nav-links">
+        <ul className={isOpen ? 'nav-links open' : 'nav-links'}>
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
