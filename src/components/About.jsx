@@ -16,7 +16,7 @@ function About() {
 
               <ul className="about-me-desc">
                 <li> I am currently 20 year old, living in Silang, Cavite. </li>
-                <li> Taking a degree in <b> Bachelor o Science in Information Technology </b> in Cavite State University </li>
+                <li> Taking a degree in <b> Bachelor of Science in Information Technology </b> in Cavite State University </li>
                 <li> I like to draw, read, watch series/movies, and I'm into <mark> sapphic contents! </mark> </li>
               </ul>
             </div>
@@ -45,6 +45,8 @@ function About() {
             </div>
           </div>
         </div>
+
+        <div className="space"></div>
     </section>
   );
 }

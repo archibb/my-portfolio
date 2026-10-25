@@ -1,4 +1,6 @@
 import './Hero.css'
+import profile from '../assets/images/profile.jpg'
+import uniform from '../assets/images/uniform.jpg'
 
 function Hero() {
   return (
@@ -24,12 +26,28 @@ function Hero() {
         </div>
       </div>
 
-      <div className="hero-image-cont">
-        <div className="hero-picture-cont"> 
-          
+      <div className="hero-image-cont"> 
+        
+        <div className="card">
+          <div className="card-flipper">
+            
+            <div className="hero-front"> 
+              <div className="hero-pic-inner">
+                <img src={profile} alt="hero profile"/>
+              </div>
+            </div>
+
+            <div className="hero-back">
+              <div className="hero-pic-inner">
+                <img src={uniform} alt="hero in uniform"/>
+              </div>
+            </div>
+          </div>
         </div>
+
       </div>
 
+      <div className="space"> </div>
     </section>
   );
 }

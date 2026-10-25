@@ -14,7 +14,9 @@
 .hero-text-cont {
     flex-grow: 1px;
     flex-shrink: 1px;
-    flex-basis: 400px;
+    flex-basis: 420px;
+    width: 640px;
+    padding-left: 25px;
     position: relative;
 }
 
@@ -62,7 +64,7 @@ mark {
 .tagline {
     margin-bottom: 20px;
     font-size: 18px;
-    max-width: 580px;
+    max-width: 650px;
 }
 
 .projects-contacts-links {
@@ -91,8 +93,70 @@ mark {
 }
 
 .hero-image-cont {
-    flex-basis: 400px;
     position: relative;
+    display: flex;
+    flex-basis: 320px;
+    justify-content: center;
+    align-items: center;
     height: 340px;
-    width: 350px;
+    width: 320px;
+    perspective: 10px;
+}
+
+.card {
+    position: absolute;
+    width: 280px;
+    height: 310px;
+    transform: rotate(-3deg);
+    perspective: 800px;
+}
+
+.card-flipper {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.7s ease;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-front {
+    position: absolute;
+    inset: 0;
+    border: 2px solid black;
+    background: var(--bgc);
+    border-radius: 15px;
+    box-shadow: 4px 4px 0px var(--yellow);
+    backface-visibility: hidden;
+}
+
+.hero-pic-inner {
+    margin: 21px 21px 30px 21px;
+    border: 2px solid black;
+    height: 220px;
+    width: 232px;
+}
+
+.hero-back {
+    position: absolute;
+    inset: 0;
+    border: 2px solid black;
+    background: var(--bgc);
+    border-radius: 15px;
+    box-shadow: 4px 4px 0px var(--yellow);
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+
+.card-flipper:hover {
+    transform: rotateY(180deg);
+}
+
+img {
+    width: 100%;
+    height: 216.5px;
+    object-fit: cover;
+}
+
+.space {
+    height: 100px;
 }
