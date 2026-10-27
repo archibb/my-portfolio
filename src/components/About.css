@@ -103,3 +103,24 @@
 .space {
     height: 100px;
 }
+
+@media (max-width: 700px) {
+
+    .more-about-cont {
+        flex-basis: 650px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .currently-cont {
+        width: 200px;
+        height: 200px;
+        transform: rotate(0deg);
+    }
+
+    .achieve-cont {
+        transform: rotate(0deg);
+    }
+}
