@@ -62,7 +62,6 @@
     box-shadow: 2px 2px 0px black;
     position: relative;
     margin: 10px;
-    transform: rotate(3deg);
 }
 
 .currently {
@@ -85,7 +84,6 @@
     box-shadow: 2px 2px 0px black;
     position: relative;
     margin: 10px;
-    transform: rotate(-3deg);
 }
 
 .achieve {
@@ -100,9 +98,6 @@
     font-size: 14px;
 }
 
-.space {
-    height: 100px;
-}
 
 @media (max-width: 400px) {
     .about {
