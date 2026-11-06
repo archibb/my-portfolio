@@ -104,22 +104,27 @@
     height: 100px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 400px) {
+    .about {
+        padding: 40px 30px;
+    }
+
+    .about-me-cont {
+        padding: 40px 30px 75px 50px;
+    }
+
+    .paper-line {
+        left: 40px;
+    }
 
     .more-about-cont {
-        flex-basis: 650px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
+        flex-basis: auto;
+        gap: 24px;
     }
 
     .currently-cont {
-        width: 200px;
-        height: 200px;
         transform: rotate(0deg);
     }
-
     .achieve-cont {
         transform: rotate(0deg);
     }

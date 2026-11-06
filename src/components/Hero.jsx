@@ -33,13 +33,13 @@ function Hero() {
             
             <div className="hero-front"> 
               <div className="hero-pic-inner">
-                <img src={profile} alt="hero profile"/>
+                <img src={profile} className="hero-img" alt="hero profile"/>
               </div>
             </div>
 
             <div className="hero-back">
               <div className="hero-pic-inner">
-                <img src={uniform} alt="hero in uniform"/>
+                <img src={uniform} className="hero-img" alt="hero in uniform"/>
               </div>
             </div>
           </div>
