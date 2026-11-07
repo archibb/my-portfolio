@@ -2,6 +2,9 @@
     max-width: 1120px;
     margin: 24px auto 0px;
     padding: 0px 32px;
+    position: sticky; /* makes navbar stays on top while scrolling*/
+    top: 16px;
+    z-index: 100;   /* moves navbar in front of other elements*/
 }
 
 .nav-inner {
