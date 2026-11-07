@@ -20,7 +20,7 @@
     border-radius: 16px;
     box-shadow: 4px 4px 0px black;
     background-image: repeating-linear-gradient(transparent 0, transparent 29px, #C5DFF8 29px,#C5DFF8 30px); /*notebook line effect*/
-    padding: 40px 30px 75px 70px;
+    padding: 40px 30px 40px 70px;
     position: relative;
 }
 

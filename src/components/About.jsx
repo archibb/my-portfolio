@@ -16,8 +16,9 @@ function About() {
 
               <ul className="about-me-desc">
                 <li> I am currently 20 year old, living in Silang, Cavite. </li>
-                <li> Taking a degree in <b> Bachelor of Science in Information Technology </b> in Cavite State University </li>
-                <li> I like to draw, read, watch series/movies, and I'm into <mark> sapphic contents! </mark> </li>
+                <li> I am taking a degree in <b> Bachelor of Science in Information Technology </b> in Cavite State University </li>
+                <li> I like to draw, read, watch series & movies, and I'm into <mark> sapphic contents! </mark> </li>
+                <li> Most of the time, I create things like writing stories and doing art because of boredom and self-indulgence. </li>
               </ul>
             </div>
 
