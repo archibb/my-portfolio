@@ -15,7 +15,7 @@ function Hero() {
             
             <h2 className ="hero-desc"> 
                 I just love to do new things.    
-                Maybe a <mark> future web designer? </mark> </h2>
+                <mark> Designing and creating </mark> whenever I'm bored. </h2>
 
             <p className="tagline"> Let's get in touch! Follow my journey in making my dream come to life. </p>
 
