@@ -1,0 +1,9 @@
+.footer {
+    position: relative;
+    background-color: var(--bgc);
+    padding: 20px 32px;
+    text-align: center;
+    font-size: 14px;
+    border-top: 2px solid var(--tc);
+    font-weight: 500;
+}
