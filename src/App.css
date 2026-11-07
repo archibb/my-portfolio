@@ -1,0 +1,38 @@
+.back-to-top {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 90;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid var(--tc);
+    border-radius: 50%;
+    background-color: var(--yellow);
+    font-size: 18px;
+    box-shadow: 3px 3px 0 var(--tc);
+    cursor: pointer;
+
+  /*back to top button state before scrolling*/
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(12px);
+    transition: opacity 0.3s, transform 0.3s, box-shadow 0.2s; /*button pop up animation when scrolls up*/
+}
+
+.back-to-top.show {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+}
+
+@media (max-width: 400px) {
+  .back-to-top {
+    bottom: 16px;
+    right: 16px;
+    width: 44px;
+    height: 44px;
+  }
+}
