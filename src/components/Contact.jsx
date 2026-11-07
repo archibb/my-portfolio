@@ -16,7 +16,7 @@ function Contact() {
 
             <div className="contact-email-cont">
               <span className="contact-email"> 
-                  Send me a <a href="mailto:izablessbaridji20@gmail.com" target="_blank" rel="noopener noreferrer" className="email-link"> message </a> </span>
+                  Send me a <a href="mailto:izablessbaridji01@gmail.com" target="_blank" rel="noopener noreferrer" className="email-link"> message </a> </span>
             </div>
 
             <div className="socials-cont"> 
